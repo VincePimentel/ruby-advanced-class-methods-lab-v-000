@@ -18,6 +18,6 @@ class Song
 
   def self.create(name)
     @name = name
-    self.all
+    self.class.all
   end
 end
