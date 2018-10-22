@@ -13,7 +13,7 @@ class Song
   def initialize(name)
     song = self.new
     song.name = name
-    self.all << self
+    self.class.all << self
   end
 
   def self.create(name)
