@@ -18,5 +18,6 @@ class Song
 
   def self.create(name)
     self.save
+    self.all
   end
 end
