@@ -45,7 +45,6 @@ class Song
     parsed_filename = filename.gsub(/\.mp3/, "")
     song = self.new
     artist_name = parsed_filename.split(" - ")[0]
-    song.name = parsed_filename.split(" - ")[1]
-    song.name
+    name = parsed_filename.split(" - ")[1]
   end
 end
