@@ -40,4 +40,8 @@ class Song
   def self.alphabetical
     self.all.sort_by { |song| -song.name }
   end
+
+  def self.new_from_filename(filename)
+    no_file_ext = filename.delete(/\.mp3\z/)
+  end
 end
