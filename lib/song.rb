@@ -57,6 +57,6 @@ class Song
     song.name = parsed_name
     song.artist_name = parsed_artist
     song.save
-    song
+    #song
   end
 end
